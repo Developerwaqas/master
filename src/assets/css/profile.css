@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, rgb(189, 36, 36) ,rgb(228, 117, 27) );
+    font-family: "Times New Roman", Times, serif;
+    transition: transform 2s;
+    color: white;
+}
+#background:hover{
+    font-family: "Times New Roman", Times, serif;
+    transition: transform 2s;
+    -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+.justify{
+    text-align: justify;
+    margin-right: 20px;
+}
+Button{
+    outline: white;
+}

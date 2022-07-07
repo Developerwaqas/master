@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgnav{
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, purple ,rgb(0, 247, 255) );
+}
+#nav{
+    margin-left: auto;
+}
+#brandname{
+    font-size: 40px;
+    font-weight: 700;
+    transition: transform 1s;
+}
+#brandname:hover{
+    font-size: 40px;
+    color: antiquewhite;
+    font-weight: 700;
+    transition: transform 1s;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+#link{
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: Verdana;
+    color: white;
+    margin-top: 5px;
+    transition: transform 1s;
+}
+#link:hover{
+    color: burlywood;
+    transition: transform 1s;
+    -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+@media only screen and (max-width: 600px) {
+    #brandname{
+        font-size: 25px;
+        font-weight: 700;
+    }
+  }

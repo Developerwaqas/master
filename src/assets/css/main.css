@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, purple ,rgb(0, 247, 255) );
+  font-family: "Times New Roman", Times, serif;
+}
+.bg2{
+  background-color: red; 
+  background-image: linear-gradient(to right, black ,rgb(23, 13, 156) );
+  font-family: "Times New Roman", Times, serif;
+}
+.bg3{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, blue, yellow);
+  font-family: "Times New Roman", Times, serif;
+}
+.bg4{
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, rgb(3, 3, 53), rgb(3, 3, 53));
+  font-family: "Times New Roman", Times, serif;
+}

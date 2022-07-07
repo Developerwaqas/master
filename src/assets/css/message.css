@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#label{
+    float: left;
+    font-size: 20px;
+    color: burlywood;
+}
+.message{
+    background: red;
+    animation: mymove 50s infinite;
+}
+@keyframes mymove {
+    from {background-color: white;}
+    to {background-color: blue;}
+  }
+.filed{
+    background: red;
+    animation: mymov 50s infinite;
+}
+@keyframes mymov {
+    from {background-color: burlywood;}
+    to {background-color: white;}
+  }
